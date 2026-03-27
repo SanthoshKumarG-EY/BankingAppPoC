@@ -12,6 +12,7 @@ test('Login Tests', async ({ homePage }) => {
 test('Registration Tests', async ({ homePage }) => {
   const userData = DataGenerator.generateRandomUserData();
   TestDataManager.saveData(userData);
+  TestDataManager.overWriteData(userData);
 
   await homePage.navigateTo('/');
   await homePage.registerNewUser(userData);
