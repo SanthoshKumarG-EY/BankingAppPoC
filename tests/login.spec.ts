@@ -9,7 +9,7 @@ test('Login Tests', async ({ homePage }) => {
   await homePage.loginBtn.click();
 });
 
-test.only('Registration Tests', async ({ homePage }) => {
+test('Registration Tests', async ({ homePage }) => {
   const userData = DataGenerator.generateRandomUserData();
   TestDataManager.saveData(userData);
 
