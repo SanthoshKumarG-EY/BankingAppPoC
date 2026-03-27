@@ -1,5 +1,6 @@
 import { test, expect } from '../src/fixtures/BaseFixture';
-import { getRegisterUserData } from '../src/utils/TestDataManager';
+import { DataGenerator } from '../src/utils/DataGenerator';
+import { TestDataManager } from '../src/utils/TestDataManager';
 
 test('Login Tests', async ({ homePage }) => {
   await homePage.navigateTo('/');
@@ -8,8 +9,9 @@ test('Login Tests', async ({ homePage }) => {
   await homePage.loginBtn.click();
 });
 
-test('Registration Tests', async ({ homePage }) => {
-  const userData = getRegisterUserData();
+test.only('Registration Tests', async ({ homePage }) => {
+  const userData = DataGenerator.generateRandomUserData();
+  TestDataManager.saveData(userData);
 
   await homePage.navigateTo('/');
   await homePage.registerNewUser(userData);

@@ -9,5 +9,4 @@ export interface RegisterUserData {
     ssn: string;
     username: string;
     password: string;
-    confirmPassword: string;
 }
