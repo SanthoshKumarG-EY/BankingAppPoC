@@ -1,15 +1,41 @@
-{
+[
+  {
     "registerUserData": {
-    "firstName": "John",
-    "lastName": "Doe",
-    "address": "123 Main St",
-    "city": "Anytown",
-    "state": "CA",
-    "zipCode": "12345",
-    "phone": "555-123-4567",
-    "ssn": "123-45-6789",
-    "username": "johndoe",
-    "password": "Password123!",
-    "confirmPassword": "Password123!"
+      "firstName": "John",
+      "lastName": "Doe",
+      "address": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zipCode": "12345",
+      "phone": "555-123-4567",
+      "ssn": "123-45-6789",
+      "username": "johndoe",
+      "password": "Password123!",
+      "confirmPassword": "Password123!"
     }
-}
+  },
+  {
+    "firstName": "xt1WgWNe",
+    "lastName": "uBSaFZqe",
+    "address": "tjZP8 Main St",
+    "city": "L2q1sl",
+    "state": "CA",
+    "zipCode": "X9TJp",
+    "phone": "Hx6GszCaWP",
+    "ssn": "yhVife7u6",
+    "username": "oIRG459pZM",
+    "password": "lky7lK5yZz()"
+  },
+  {
+    "firstName": "SgjTaHd1",
+    "lastName": "AGwjfWFW",
+    "address": "M7EYD Main St",
+    "city": "CXDHmy",
+    "state": "CA",
+    "zipCode": "IciwS",
+    "phone": "0464642190",
+    "ssn": "278402305",
+    "username": "Vd9MZcIRg6",
+    "password": "$I5iJwPW(pWJ"
+  }
+]

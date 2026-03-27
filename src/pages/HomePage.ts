@@ -151,7 +151,7 @@ export class HomePage extends BasePage {
         await this.regSSN.fill(userData.ssn);
         await this.regUsername.fill(userData.username);
         await this.regPassword.fill(userData.password);
-        await this.regConfirmPassword.fill(userData.confirmPassword);
+        await this.regConfirmPassword.fill(userData.password);
         await this.regSubmitBtn.click();
     }
 
