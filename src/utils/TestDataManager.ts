@@ -22,4 +22,9 @@ export class TestDataManager {
   static overWriteData(data: RegisterUserData) {
     fs.writeFileSync(this.filePath2, JSON.stringify(data, null, 2), 'utf-8');
   }
+
+  static retrieveOverWrittenData() {
+    const data = fs.readFileSync(this.filePath2, 'utf-8');
+    return JSON.parse(data);
+  }
 }

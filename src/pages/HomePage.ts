@@ -155,5 +155,15 @@ export class HomePage extends BasePage {
         await this.regSubmitBtn.click();
     }
 
+    async login(username: string, password: string) {
+        await this.usernameInput.fill(username);
+        await this.passwordInput.fill(password);
+        await this.loginBtn.click();
+    }
+
+    async logout() {
+        await this.topPanel.locator('//a[text()="Log Out"]').click();
+    }
+
 
 }
